@@ -284,6 +284,8 @@ modules:
       - type: archive
         url: https://archive.xfce.org/src/apps/ristretto/0.14/ristretto-0.14.0.tar.xz
         sha256: 502cf1577de14b38132dc89e56884c5e10f86f6a028d8dde379a8839110fda55
+      - type: patch
+        path: patches/0001-flatpak-Use-OpenURI-portal-for-Open-With.patch
         x-checker-data:
           type: anitya
           project-id: 8365
